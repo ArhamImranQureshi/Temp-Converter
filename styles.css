@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .input-group-text {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .input-group-text:before {
+    content: "\f2c7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+  
+  .input-group-text:nth-child(2):before {
+    content: "\f2c9";
+  }
+  
+  .input-group-text:nth-child(3):before {
+    content: "\f3a2";
+  }
+  
